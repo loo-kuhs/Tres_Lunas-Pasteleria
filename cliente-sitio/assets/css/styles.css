@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap");
+
+:root {
+  /* Colores */
+  --orchid-pink-color: #ffc8dd;
+  --pale-purple-pantone: #f4e2ef;
+  --english-violet: #4e2e60;
+  --azure-color: #007ef5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--pale-purple-pantone);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--english-violet);
+}
+
+a:hover {
+  color: var(--azure-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--orchid-pink-color);
+}
+
+#section-header-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+#section-header-logo:hover {
+  filter: grayscale(70%);
+}
+
+#section-header-logo img {
+  width: 5.25rem;
+}
+
+#section-header-logo p {
+  font-size: 0.9rem;
+}
+
+header .navbar ul {
+  display: flex;
+  padding: 0 0 0 3.5rem;
+  font-weight: 500;
+}
+
+header .navbar ul li {
+  padding: 0.7rem;
+}
+
+main #presentation--img img{
+  width: 100%;
+}
