@@ -4,30 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+      integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/bulma-estilos.js" defer></script>
     <title>Tres Lunas | Pastelería</title>
   </head>
   <body>
-    <header>
-      <div id="section-header-logo">
-        <a href="./index.html"
-          ><img src="./assets/img/logo_treslunas_.png" alt="Tres Lunas Logo" />
-          <p>Tres Lunas</p></a
+    <div class="seccion-titulo has-text-centered">
+      <h1 class="is-size-2 ">
+        <a href="./index.html">Tres Lunas</a>
+      </h1>
+      <p class="subtitulo">
+        Seguimos llevándote a la luna con nuestros sabores desde el '97
+      </p>
+    </div>
+    <hr />
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./index.html">
+          <img src="./assets/img/logo_treslunas_.png" alt="Tres Lunas Logo" />
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
         >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="./pages/products.html">Nuestros productos</a></li>
-          <li><a href="./pages/about.html">Conócenos</a></li>
-          <li><a href="./pages/contact.html">Contacta con nosotros</a></li>
-          <li><a href="./pages/jobs.html">Únete a nuestro equipo</a></li>
-        </ul>
-      </nav>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="./pages/products.html"
+            >Nuestros productos</a
+          >
+          <a class="navbar-item" href="./pages/about.html">Conócenos</a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a href="" class="navbar-link">Más...</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="./pages/contact.html"
+                >Contacta con nosotros</a
+              >
+              <a class="navbar-item" href="./pages/jobs.html"
+                >Únete a nuestro equipo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="" class="button is-primary"
+                ><strong>Iniciar sesión</strong></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <figure class="image" id="presentation--img">
+        <img src="./assets/img/presentation--img-min.jpg" alt="welcome" />
+      </figure>
     </header>
 
+    <hr />
     <main>
-      <section id="presentation--img">
-        <img src="./assets/img/presentation--img-min.jpg" alt="welcome">
+      <section class="box">
+        <h2></h2>
       </section>
     </main>
   </body>
