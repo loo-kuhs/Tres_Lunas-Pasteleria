@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap");
+@import "./slider.css";
 
 :root {
   /* Colores */
@@ -6,7 +7,7 @@
   --pale-purple-pantone: #f4e2ef;
   --english-violet: #4e2e60;
   --azure-color: #007ef5;
-  --barbie-pink: #D60A8B;
+  --barbie-pink: #d60a8b;
 }
 
 * {
