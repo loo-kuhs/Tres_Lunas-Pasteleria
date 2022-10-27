@@ -35,10 +35,14 @@ a:hover {
   color: var(--orchid-pink-color);
 }
 
-.subtitulo {
-  color: var(--barbie-pink);
+.subtitulo,
+h3 {
   font-family: "Island Moments", cursive;
+  color: var(--barbie-pink);
   font-weight: 400;
+}
+
+.subtitulo {
   font-size: 1.65rem;
 }
 
