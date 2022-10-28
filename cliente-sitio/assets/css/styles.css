@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap&family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap&family=Arima:wght@200;300;500");
 @import "./slider.css";
 @import './about.css';
+@import './products.css';
 
 :root {
   /* Colores */
