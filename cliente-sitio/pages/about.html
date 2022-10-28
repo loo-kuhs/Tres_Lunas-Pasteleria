@@ -4,7 +4,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+      integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script src="../assets/js/bulma-estilos.js" defer></script>
     <title>Tres Lunas | Nosotros somos</title>
   </head>
-  <body></body>
+  <body class="has-navbar-fixed-top">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="../index.html">
+          <img
+            src="../assets/img/logo_treslunas_.png"
+            alt="Tres Lunas Logo"
+            class="py-2 px-2"
+          />
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="./products.html">Nuestros productos</a>
+          <a class="navbar-item" href="./about.html">Conócenos</a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a href="" class="navbar-link">Más...</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="./contact.html"
+                >Contacta con nosotros</a
+              >
+              <a class="navbar-item" href="./jobs.html"
+                >Únete a nuestro equipo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="" class="button is-danger"
+                ><strong>Iniciar sesión</strong></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="seccion-titulo has-text-centered mt-4">
+      <h1 class="is-size-2">
+        <a href="../index.html">Tres Lunas</a>
+      </h1>
+      <p class="subtitulo">
+        Seguimos llevándote a la luna con nuestros sabores desde el '97
+      </p>
+    </header>
+
+    <main>
+      <hr />
+      <section class="about section">
+        <h3 class="has-text-centered is-3 subtitle">
+          <a href="./about.html">¿Quiénes somos?</a>
+        </h3>
+        <h2 class="has-text-centered is-3 title mt-2">
+          Somos los mejores pasteleros de México
+        </h2>
+        <div
+          class="columns mt-3 is-centered is-multiline is-mobile is-flex is-justify-content-center is-align-items-center"
+        >
+          <div
+            class="column is-narrow-mobile is-one-quarter is-flex is-justify-content-center is-align-items-center"
+          >
+            <figure>
+              <img
+                class="image"
+                src="../assets/img/logo_treslunas_.png"
+                alt="Logo"
+              />
+            </figure>
+          </div>
+          <div class="column">
+            <p class="has-text-justified">
+              Abrimos nuestras puertas por primera vez en 1997 entre las calles
+              que hoy se conocen como Madero e Isabel la Católica, con el
+              objetivo de alegrar y regalarle un dulce sabor de boca a cada uno
+              de nuestros comensales en la Ciudad de México. Nuestro nombre está
+              inspirado en uno de los momentos que marcaron la humanidad,
+              hablamos del alunizaje.
+              <br />
+              Tras nuestro inicio como pastelería, vivimos momentos importantes
+              de la historia en México, vimos pasar catástrofes y aunque estos
+              acontecimientos nos obligó a cerrar momentáneamente nuestras
+              puertas, pronto nuestro corazón y el objetivo de ser la fuente de
+              alegría en cada mesa de los mexicanos, en 1999 abrimos de nuevo
+              una tienda a espaldas del Palacio de Bellas Artes.
+              <br />
+              Conforme la Ciudad de México siguió creciendo nosotros lo hicimos
+              con ella, multiplicando nuestras sucursales para poder ofrecer en
+              diferentes puntos una nueva variedad de pasteles y pan de la más
+              alta calidad. No quisimos quedarnos ahí, y nos dimos a la tarea de
+              expandir nuestro sabor en diferentes partes de la República,
+              gracias a este esfuerzo hoy contamos con más de 170 sucursales
+              <strong><a href="../index.html">Tres Lunas</a></strong> con
+              presencia en 24 ciudades del país.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <p class="title has-text-right">
+              “Hemos visto crecer familias enteras y hemos sido orgullosamente
+              la fuente de alegría”
+            </p>
+            <p class="subtitle has-text-right">Tres Lunas</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

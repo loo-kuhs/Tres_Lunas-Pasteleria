@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap&family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap&family=Arima:wght@200;300;500");
 @import "./slider.css";
+@import './about.css';
 
 :root {
   /* Colores */
@@ -9,7 +10,10 @@
   --azure-color: #007ef5;
   --barbie-pink: #d60a8b;
 }
-
+::selection {
+  background-color: var(--english-violet);
+  color: var(--pale-purple-pantone);
+}
 * {
   margin: 0;
   padding: 0;
@@ -31,21 +35,30 @@ a:hover {
   color: var(--azure-color);
 }
 
+.seccion-titulo a {
+  font-family: "Arima", cursive;
+  font-weight: 500;
+}
+
 .seccion-titulo a:hover {
   color: var(--orchid-pink-color);
 }
 
 .subtitulo,
-h3 {
-  font-family: "Island Moments", cursive;
+.about h3 a {
+  font-family: "Bad Script", cursive;
   color: var(--barbie-pink);
   font-weight: 400;
 }
 
 .subtitulo {
-  font-size: 1.65rem;
+  font-size: 1.25rem;
 }
 
 hr {
-  margin: 1px 0;
+  margin: 0.50rem;
+}
+
+.navbar .navbar-brand .navbar-item img {
+  max-height: 4rem;
 }

@@ -15,20 +15,19 @@
     <script src="./assets/js/bulma-estilos.js" defer></script>
     <title>Tres Lunas | Pastelería</title>
   </head>
-  <body>
-    <div class="seccion-titulo has-text-centered">
-      <h1 class="is-size-2">
-        <a href="./index.html">Tres Lunas</a>
-      </h1>
-      <p class="subtitulo">
-        Seguimos llevándote a la luna con nuestros sabores desde el '97
-      </p>
-    </div>
-    <hr />
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <body class="has-navbar-fixed-top">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
         <a class="navbar-item" href="./index.html">
-          <img src="./assets/img/logo_treslunas_.png" alt="Tres Lunas Logo" />
+          <img
+            src="./assets/img/logo_treslunas_.png"
+            alt="Tres Lunas Logo"
+            class="py-2 px-2"
+          />
         </a>
         <a
           role="button"
@@ -65,7 +64,7 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a href="" class="button is-primary"
+              <a href="" class="button is-danger"
                 ><strong>Iniciar sesión</strong></a
               >
             </div>
@@ -73,6 +72,16 @@
         </div>
       </div>
     </nav>
+
+    <header class="seccion-titulo has-text-centered mt-4">
+      <h1 class="is-size-2">
+        <a href="./index.html">Tres Lunas</a>
+      </h1>
+      <p class="subtitulo">
+        Seguimos llevándote a la luna con nuestros sabores desde el '97
+      </p>
+    </header>
+    <hr />
 
     <section id="presentation--slider">
       <div class="container-all">
@@ -83,51 +92,109 @@
         <input type="radio" id="5" name="image-slide" hidden />
 
         <div class="slide">
-
           <div class="item-slide">
-            <img src="./assets/img/cakes/presentation--img-min-01.jpg" alt="Pastel 1" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-01.jpg"
+              alt="Pastel 1"
+            />
           </div>
           <div class="item-slide">
-            <img src="./assets/img/cakes/presentation--img-min-02.jpg" alt="Pastel 2" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-02.jpg"
+              alt="Pastel 2"
+            />
           </div>
           <div class="item-slide">
-            <img src="./assets/img/cakes/presentation--img-min-03.jpg" alt="Pastel 3" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-03.jpg"
+              alt="Pastel 3"
+            />
           </div>
           <div class="item-slide">
-            <img src="./assets/img/cakes/presentation--img-min-04.jpg" alt="Pastel 4" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-04.jpg"
+              alt="Pastel 4"
+            />
           </div>
           <div class="item-slide">
-            <img src="./assets/img/cakes/presentation--img-min-05.jpg" alt="Pastel 5" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-05.jpg"
+              alt="Pastel 5"
+            />
           </div>
-
         </div>
 
         <div class="pagination">
-
           <label class="pagination-item" for="1">
-            <img src="./assets/img/cakes/presentation--img-min-01.jpg" alt="Pastel" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-01.jpg"
+              alt="Pastel"
+            />
           </label>
           <label class="pagination-item" for="2">
-            <img src="./assets/img/cakes/presentation--img-min-02.jpg" alt="Pastel" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-02.jpg"
+              alt="Pastel"
+            />
           </label>
           <label class="pagination-item" for="3">
-            <img src="./assets/img/cakes/presentation--img-min-03.jpg" alt="Pastel" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-03.jpg"
+              alt="Pastel"
+            />
           </label>
           <label class="pagination-item" for="4">
-            <img src="./assets/img/cakes/presentation--img-min-04.jpg" alt="Pastel" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-04.jpg"
+              alt="Pastel"
+            />
           </label>
           <label class="pagination-item" for="5">
-            <img src="./assets/img/cakes/presentation--img-min-05.jpg" alt="Pastel" />
+            <img
+              src="./assets/img/cakes/presentation--img-min-05.jpg"
+              alt="Pastel"
+            />
           </label>
-
         </div>
       </div>
     </section>
 
-    <hr />
     <main>
-      <section class="container is-fluid">
-        <h3 class="has-text-centered is-1 subtitle">¿Quiénes somos?</h3>
+      <hr />
+
+      <section class="about section">
+        <h3 class="has-text-centered is-3 subtitle">
+          <a href="./pages/about.html">¿Quiénes somos?</a>
+        </h3>
+        <h2 class="has-text-centered is-3 title mt-2">
+          Somos los mejores pasteleros de México
+        </h2>
+        <div
+          class="columns is-flex is-justify-content-center is-align-items-center"
+        >
+          <div
+            class="column is-one-quarter  is-justify-content-center is-flex is-align-items-center"
+          >
+            <figure>
+              <img
+                class="image is-128x128"
+                src="./assets/img/logo_treslunas_.png"
+                alt="Logo"
+              />
+            </figure>
+          </div>
+          <div class="column">
+            <p class="has-text-justified">
+              Abrimos nuestras puertas por primera vez en 1997 entre las calles
+              que hoy se conocen como Madero e Isabel la Católica, con el
+              objetivo de alegrar y regalarle un dulce sabor de boca a cada uno
+              de nuestros comensales en la Ciudad de México. Nuestro nombre está
+              inspirado en uno de los momentos que marcaron la humanidad,
+              hablamos del alunizaje.
+              <strong><a href="./pages/about.html">... ver más.</a></strong>
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   </body>

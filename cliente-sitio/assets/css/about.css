@@ -1,0 +1,13 @@
+.about .columns p,
+.about .card .title {
+  font-family: "Arima", cursive;
+}
+
+.about .columns p {
+  font-size: 14pt;
+  font-weight: 200;
+}
+
+.about .card .subtitle {
+  font-size: 10pt;
+}
