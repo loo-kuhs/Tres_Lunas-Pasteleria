@@ -45,7 +45,7 @@ a:hover {
 }
 
 .subtitulo,
-.about h3 a {
+section h3 a {
   font-family: "Bad Script", cursive;
   color: var(--barbie-pink);
   font-weight: 400;
