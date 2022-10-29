@@ -1,5 +1,14 @@
-#cakes-products .title {
-  font-family: 'Bad Script', cursive;
-  font-weight: 500;
+#cakes-products .title,
+.cake-price {
   color: var(--barbie-pink);
+}
+
+#cakes-products .title {
+  font-family: "Bad Script", cursive;
+  font-weight: 500;
+}
+
+#cakes-products .cake-price {
+  font-family: 'Arima', cursive;
+  font-weight: 400;
 }
