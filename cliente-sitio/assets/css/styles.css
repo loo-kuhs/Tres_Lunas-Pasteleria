@@ -12,10 +12,20 @@
   --azure-color: #007ef5;
   --barbie-pink: #d60a8b;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 ::selection {
   background-color: var(--english-violet);
   color: var(--pale-purple-pantone);
 }
+
 * {
   margin: 0;
   padding: 0;
