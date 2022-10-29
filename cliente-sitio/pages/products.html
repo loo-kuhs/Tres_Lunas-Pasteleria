@@ -334,9 +334,7 @@
         <h3 class="has-text-centered is-3 subtitle">
           <a href="./products.html">Crea el tuyo</a>
         </h3>
-        <h2 class="has-text-centered is-3 title mt-2">
-          ¿Ninguno te atrapó?
-        </h2>
+        <h2 class="has-text-centered is-3 title mt-2">¿Ninguno te atrapó?</h2>
 
         <div class="columns">
           <div class="column is-6 is-offset-3">
@@ -349,10 +347,37 @@
               </div>
 
               <div class="field">
-                <label class="label">Tamaño del pastel</label>
+                <label for="" class="label">Nombre(s) y apellido(s)</label>
+                <div class="control">
+                  <input type="text" class="input" placeholder="Rebeca Gomez" />
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="" class="label">Correo electrónico</label>
+                <div class="control">
+                  <input
+                    type="email"
+                    class="input"
+                    placeholder="rebeca@treslunas.com"
+                  />
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="" class="label">Número de teléfono</label>
+                <div class="control">
+                  <input type="tel" class="input" placeholder="+525689014895" />
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="field is-grouped pt-2">
                 <div class="control">
                   <div class="select">
                     <select>
+                      <option>Tamaño del pastel</option>
                       <option>Pequeño</option>
                       <option>Mediano</option>
                       <option>Normal</option>
@@ -360,6 +385,124 @@
                       <option>Extra Grande</option>
                     </select>
                   </div>
+                </div>
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>Forma del pastel</option>
+                      <option>Redondo</option>
+                      <option>Cuadrado</option>
+                      <option>Rectangular</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="" class="label">Sabor principal</label>
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Chocolate
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Vainilla
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Naranja
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Amaranto
+                  </label>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="" class="label">Sabor secundario</label>
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Chocolate
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Vainilla
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Naranja
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Amaranto
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question" />
+                    Ninguno
+                  </label>
+                </div>
+              </div>
+
+              <hr />
+              <div class="field">
+                <label for="" class="label">Frutas (máx. 4)</label>
+                <div class="control">
+                  <label class="checkbox px-1">
+                    <input type="checkbox" />
+                    Fresa
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" />
+                    Mango
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" disabled />
+                    Sandía
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" />
+                    Frambuesa
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" />
+                    Moras
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" disabled />
+                    Uvas
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" />
+                    Piña
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" />
+                    Durazno
+                  </label>
+                  <label class="checkbox px-1">
+                    <input type="checkbox" disabled />
+                    Melón
+                  </label>
+                </div>
+              </div>
+
+              <!-- TODO: Terminar esté formulario. -->
+
+              <hr />
+
+              <label class="checkbox">
+                <input type="checkbox" />
+                Acepto los <a href="#">términos y condiciones</a>.
+              </label>
+              <div class="field is-grouped pt-5">
+                <div class="control">
+                  <button class="button is-danger">¡Listo!</button>
+                </div>
+                <div class="control">
+                  <button class="button is-link is-light">Cancelar</button>
                 </div>
               </div>
             </form>
