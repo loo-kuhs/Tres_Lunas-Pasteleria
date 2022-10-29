@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap&family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap&family=Arima:wght@200;300;500");
 @import "./slider.css";
-@import './about.css';
-@import './products.css';
+@import "./about.css";
+@import "./products.css";
 
 :root {
   /* Colores */
@@ -57,9 +57,13 @@ section h3 a {
 }
 
 hr {
-  margin: 0.50rem;
+  margin: 0.5rem;
 }
 
 .navbar .navbar-brand .navbar-item img {
   max-height: 4rem;
+}
+
+#pie-de-pagina {
+  background-color: var(--pale-purple-pantone);
 }
