@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="shortcut icon"
+      href="../assets/img/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
       integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
@@ -95,18 +100,15 @@
           Se parte de nuestro gran equipo
         </h2>
         <div class="container">
-          <div class="columns my-3 ">
+          <div class="columns my-3">
             <div class="column is-9 is-offset-1">
               <div class="box content">
-
                 <article class="post">
                   <h4>Pastelero</h4>
                   <div class="media">
                     <div class="media-left">
                       <p class="image is-32x32">
-                        <img
-                          src="../assets/img/treslunas.png"
-                        />
+                        <img src="../assets/img/treslunas.png" />
                       </p>
                     </div>
                     <div class="media-content">
@@ -131,9 +133,7 @@
                   <div class="media">
                     <div class="media-left">
                       <p class="image is-32x32">
-                        <img
-                          src="../assets/img/treslunas.png"
-                        />
+                        <img src="../assets/img/treslunas.png" />
                       </p>
                     </div>
                     <div class="media-content">
@@ -158,15 +158,14 @@
                   <div class="media">
                     <div class="media-left">
                       <p class="image is-32x32">
-                        <img
-                          src="../assets/img/treslunas.png"
-                        />
+                        <img src="../assets/img/treslunas.png" />
                       </p>
                     </div>
                     <div class="media-content">
                       <div class="content">
                         <p>
-                          <a href="#">@Administrador</a> publicó hace 1 día. &nbsp;
+                          <a href="#">@Administrador</a> publicó hace 1 día.
+                          &nbsp;
                           <span class="tag">Vacante</span>
                         </p>
                       </div>
@@ -183,7 +182,117 @@
           </div>
         </div>
 
-        <!-- TODO: Agregar un formulario para mandar CV -->
+        <div class="box">
+          <div id="vacancy-form" class="container has-text-centered pt-3">
+            <div class="columns">
+              <div class="column is-8 has-text-left is-offset-2">
+                <form action="" class="box">
+                  <div class="field">
+                    <label class="label">Nombre(s) y apellido(s)</label>
+                    <div class="control has-icons-left">
+                      <input
+                        class="input"
+                        type="text"
+                        placeholder="Paula Luke"
+                      />
+                      <span class="icon is-left">
+                        <i class="fa-regular fa-face-smile"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Correo electrónico</label>
+                    <div class="control has-icons-left">
+                      <input
+                        class="input"
+                        type="email"
+                        placeholder="paula@treslunas.com"
+                      />
+                      <span class="icon is-left">
+                        <i class="fa-regular fa-envelope"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Número de teléfono</label>
+                    <div class="control has-icons-left">
+                      <input
+                        class="input"
+                        type="tel"
+                        placeholder="+525642101947"
+                      />
+                      <span class="icon is-left">
+                        <i class="fa-solid fa-phone"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <p class="control has-icons-left">
+                      <span class="select">
+                        <select>
+                          <option selected>Vacante</option>
+                          <option>Pastelero</option>
+                          <option>Personal de limpieza, sexo indistinto</option>
+                          <option>Desarrollador React Frontend</option>
+                          <option>Otro</option>
+                        </select>
+                      </span>
+                      <span class="icon is-left">
+                        <i class="fas fa-regular fa-suitcase"></i>
+                      </span>
+                    </p>
+                  </div>
+
+                  <div class="field">
+                    <label for="" class="label">Mándanos tu CV</label>
+                    <div class="file is-danger has-name is-boxed">
+                      <label class="file-label">
+                        <input class="file-input" type="file" name="resume" />
+                        <span class="file-cta">
+                          <span class="file-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                          </span>
+                        </span>
+                        <span class="file-name"> .pdf, .jpg o .png </span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Preséntate brevemente</label>
+                    <div class="control">
+                      <textarea
+                        class="textarea"
+                        placeholder="Escribe aquí un pequeño resumen acerca de ti."
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox" />
+                        Acepto <a href="#">términos y condiciones</a>.
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-danger">¡Enviar!</button>
+                    </div>
+                    <div class="control">
+                      <button class="button is-link is-light">Limpiar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
