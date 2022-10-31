@@ -22,8 +22,72 @@
       defer
     ></script>
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <!--     <script src="./assets/js/bulma-estilos.js" defer></script> -->
+    <script src="./assets/js/bulma-estilos.js" defer></script>
     <title>Tres Lunas | Administrador</title>
   </head>
-  <body class="has-navbar-fixed-top"></body>
+  <body class="has-navbar-fixed-top">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./index.html">
+          <img
+            src="./assets/img/logo_treslunas_.png"
+            alt="Tres Lunas Logo"
+            class="py-2 px-2"
+          />
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="./pages/products.html">Productos</a>
+          <a class="navbar-item" href="./pages/stock.html">Inventario</a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a href="" class="navbar-link">Más...</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="./pages/jobs.html"
+                >Manejo de vacantes</a
+              >
+              <a class="navbar-item" href="./pages/faq.html"
+                >Preguntas frecuentes</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="" class="button is-danger"
+                ><strong>Iniciar sesión</strong></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="seccion-titulo has-text-centered mt-4">
+      <h1 class="is-size-2">
+        <a href="./index.html">Tres Lunas</a>
+      </h1>
+      <p class="subtitulo">
+        Seguimos llevándote a la luna con nuestros sabores desde el '97
+      </p>
+    </header>
+  </body>
 </html>

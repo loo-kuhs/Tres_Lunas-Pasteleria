@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap&family=Montserrat:ital,wght@0,300;0,500;1,100&display=swap&family=Arima:wght@200;300;500");
+/* @import "./slider.css";
+@import "./about.css";
+@import "./products.css";
+@import "./contact.css";
+@import "./jobs.css"; */
+
+:root {
+  /* Colores */
+  --orchid-pink-color: #ffc8dd;
+  --pale-purple-pantone: #f4e2ef;
+  --english-violet: #4e2e60;
+  --azure-color: #007ef5;
+  --barbie-pink: #d60a8b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: var(--english-violet);
+  color: var(--pale-purple-pantone);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--english-violet);
+}
+
+a:hover {
+  color: var(--azure-color);
+}
+
+.seccion-titulo a {
+  font-family: "Arima", cursive;
+  font-weight: 500;
+}
+
+.seccion-titulo a:hover {
+  color: var(--orchid-pink-color);
+}
+
+.subtitulo,
+section h3 a {
+  font-family: "Bad Script", cursive;
+  color: var(--barbie-pink);
+  font-weight: 400;
+}
+
+.subtitulo {
+  font-size: 1.25rem;
+}
+
+hr {
+  margin: 0.5rem;
+}
+
+.navbar .navbar-brand .navbar-item img {
+  max-height: 4rem;
+}
+
+#pie-de-pagina {
+  background-color: var(--pale-purple-pantone);
+}
